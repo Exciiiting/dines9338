@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "2968"// البرفكس هنا
+var prefix = "9338"// البرفكس هنا
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -47,7 +47,7 @@ console.log("Failed To Join:\n The Channel Type isn't \"text\"");
 });
  
  
-const adminprefix = "2968";
+const adminprefix = "9338";
 const devs = ['506211849100984320'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
